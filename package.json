@@ -2,6 +2,7 @@
   "name": "backend_pro",
   "version": "1.0.0",
   "description": "backened developed by Santosh ",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,11 @@
     "santosh"
   ],
   "author": "santosh prasad",
-  "license": "ISC"
+  "license": "ISC",
+  "DevDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
 }
